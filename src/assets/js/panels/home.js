@@ -27,7 +27,6 @@ class Home {
                 blockNews.classList.add('news-block');
                 blockNews.innerHTML = `
                     <div class="news-header">
-                        <img class="server-status-icon" src="assets/images/icon.png">
                         <div class="header-text">
                             <div class="title">Aucun news n'ai actuellement disponible.</div>
                         </div>
@@ -49,13 +48,13 @@ class Home {
                     blockNews.classList.add('news-block');
                     blockNews.innerHTML = `
                         <div class="news-header">
-                            <img class="server-status-icon" src="assets/images/icon.png">
                             <div class="header-text">
                                 <div class="title">${News.title}</div>
                             </div>
                             <div class="date">
                                 <div class="day">${date.day}</div>
                                 <div class="month">${date.month}</div>
+                                <div class="year">${date.year}</div>
                             </div>
                         </div>
                         <div class="news-content">

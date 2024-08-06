@@ -102,6 +102,7 @@ class Settings {
         })
     }
 
+
     async setInstance(auth) {
         let configClient = await this.db.readData('configClient')
         let instanceSelect = configClient.instance_selct

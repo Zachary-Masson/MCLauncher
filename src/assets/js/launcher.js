@@ -95,7 +95,7 @@ class Launcher {
                     java_path: null,
                     java_memory: {
                         min: 2,
-                        max: 4
+                        max: 8
                     }
                 },
                 game_config: {
@@ -106,7 +106,7 @@ class Launcher {
                 },
                 launcher_config: {
                     download_multi: 5,
-                    theme: 'auto',
+                    theme: 'dark',
                     closeLauncher: 'close-launcher',
                     intelEnabledMac: true
                 }
