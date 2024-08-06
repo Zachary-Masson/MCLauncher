@@ -1,11 +1,11 @@
 {
     "name": "MCLauncher",
     "preductname": "Launcher",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Launcher Mincraft pour le serveur",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, Inc. & Refork by Zachary Masson",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
